@@ -14,21 +14,21 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = "OnePunchSupport"  # Your own group for support, do not add the @
+    API_ID = 21279292  # integer value, dont use ""
+    API_HASH = "b9f12d911d85b4a60fa13ba9c2c09712"
+    TOKEN = "7155302350:AAHUNaJzM59tzjS-Tg7WIbqffGohQm3ddV4"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 6758236533  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "obito_shaodw"
+    SUPPORT_CHAT = "IxSupport"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001253661229
+        -1002117701544
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001190806654
+        -1002117701544
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
+    SQLALCHEMY_DATABASE_URI = "postgres://ybbnqqpa:u9QjWY5ts3fl5ogXNaEciajIV5-anJK_@bubble.db.elephantsql.com/ybbnqqpa"  # needed for any database modules # its "URI" and not "URL" as herok and similar ones only accept it as such
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
