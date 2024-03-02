@@ -1,43 +1,52 @@
 {
-  "name": "MADARA",
-  "description": "saitama robot management",
+  "name": "obito",
+  "description": "saitama robot",
   "repository": "https://github.com/darkmadara09/SaitamaRobot",
   "env": {
     "API_ID": {
       "description": "Your API ID",
-      "required": true
+      "required": true,
+      "value": "13600724"
     },
     "API_HASH": {
       "description": "Your API hash",
-      "required": true
+      "required": true,
+      "value": "b9f12d911d85b4a60fa13ba9c2c09712"
     },
     "TOKEN": {
       "description": "Your bot token",
-      "required": true
+      "required": true,
+      "value": "7155302350:AAHUNaJzM59tzjS-Tg7WIbqffGohQm3ddV4"
     },
     "OWNER_ID": {
       "description": "Owner's user ID",
-      "required": true
+      "required": true,
+      "value": "6758236533"
     },
     "OWNER_USERNAME": {
       "description": "Owner's username",
-      "required": true
+      "required": true,
+      "value": "obito_shaodw"
     },
     "SUPPORT_CHAT": {
       "description": "Support group chat name",
-      "required": true
+      "required": true,
+      "value": "IxSupport"
     },
     "JOIN_LOGGER": {
       "description": "ID of group to print when bot is added",
-      "required": true
+      "required": true,
+      "value": "-1002117701544"
     },
     "EVENT_LOGS": {
       "description": "ID of group for event logs",
-      "required": true
+      "required": true,
+      "value": "-1002117701544"
     },
     "SQLALCHEMY_DATABASE_URI": {
       "description": "Database URI",
-      "required": true
+      "required": true,
+      "value": "postgres://ybbnqqpa:u9QjWY5ts3fl5ogXNaEciajIV5-anJK_@bubble.db.elephantsql.com/ybbnqqpa"
     },
     "LOAD": {
       "description": "List of modules to load",
