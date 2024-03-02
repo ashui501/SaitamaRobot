@@ -1,1 +1,2 @@
-madara: python -m saitamarobot
+worker: python3 -m Saitmarobot
+ps:scale worker=1
