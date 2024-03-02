@@ -1,0 +1,91 @@
+{
+  "name": "MADARA",
+  "description": "saitama robot management",
+  "repository": "https://github.com/darkmadara09/SaitamaRobot",
+  "env": {
+    "API_ID": {
+      "description": "Your API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your API hash",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "Your bot token",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Owner's user ID",
+      "required": true
+    },
+    "OWNER_USERNAME": {
+      "description": "Owner's username",
+      "required": true
+    },
+    "SUPPORT_CHAT": {
+      "description": "Support group chat name",
+      "required": true
+    },
+    "JOIN_LOGGER": {
+      "description": "ID of group to print when bot is added",
+      "required": true
+    },
+    "EVENT_LOGS": {
+      "description": "ID of group for event logs",
+      "required": true
+    },
+    "SQLALCHEMY_DATABASE_URI": {
+      "description": "Database URI",
+      "required": true
+    },
+    "LOAD": {
+      "description": "List of modules to load",
+      "required": false
+    },
+    "NO_LOAD": {
+      "description": "List of modules not to load",
+      "required": false
+    },
+    "WEBHOOK": {
+      "description": "Whether to use webhook or not",
+      "required": false
+    },
+    "INFOPIC": {
+      "description": "Whether to include info picture",
+      "required": false
+    },
+    "URL": {
+      "description": "URL of your bot",
+      "required": false
+    },
+    "SPAMWATCH_API": {
+      "description": "API key for SpamWatch",
+      "required": false
+    },
+    "SPAMWATCH_SUPPORT_CHAT": {
+      "description": "SpamWatch support group chat",
+      "required": false
+    },
+    "DRAGONS": {
+      "description": "List of users with sudo access",
+      "required": false
+    },
+    "DEV_USERS": {
+      "description": "List of developers with owner-like permissions",
+      "required": false
+    },
+    "DEMONS": {
+      "description": "List of users allowed to gban",
+      "required": false
+    },
+    "TIGERS": {
+      "description": "List of users not to ban/kick",
+      "required": false
+    },
+    "WOLVES": {
+      "description": "List of whitelisted users",
+      "required": false
+    }
+  }
+}
