@@ -1,3 +1,2 @@
-worker: python3 -m VegetaRobot
-web: python3 -m VegetaRobot
+worker: python3 saitamarobot
 ps:scale worker=1
